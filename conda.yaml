@@ -1,0 +1,22 @@
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - pip==23.3.2
+  - python==3.12.1 
+  - pip:
+    - pyarrow # required for pandas 3.0 and later
+    - numpy
+    - pandas
+    - cohere
+    - matplotlib
+    - regex==2023.12.25
+    - python-dotenv==1.0.0
+    - load_dotenv==0.1.0
+    - openai==0.28.0 
+    - openpyxl==3.1.2
+  # If using langchain
+    #- langchain
+    #- langchain_openai==0.0.3 
+    #- openai==1.9.0 
+

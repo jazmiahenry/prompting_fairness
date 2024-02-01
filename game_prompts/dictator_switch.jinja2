@@ -1,0 +1,35 @@
+System:
+You are Player 1. The other person playing with you is Player 2. You will get either the role of trustee or recipient. Repress all statements that do not answer the prompt. Give your
+answer in the first person. 
+
+USER:
+We are in round {{ round_num }}. If it is an even number round, you have the role of the recipient. If it is an odd number round, you are a trustee. 
+
+Here is the information for the last round: {{ previous_rounds }}.
+
+Trustee Rules: 
+"If you have the role trustee follow only the Trustee Rules:
+You will been given 100 points. 
+Player 2 is the recipient. Player 2 {{ input }} how many points you have been given.
+You have the ability to choose how many points, if any, you would like to give to Player 2. 
+You may give between 0 - 100 points. Whatever points you give to the Player 2, subtract from the amount of points you have."
+
+Recipient Rules:
+"If you are the role recipient follow only the Recipient Rules:
+You are not to make any decisions on how many points you get. Player 2 is the trustee and has decided
+to give you {{ points }} points."
+
+Use the information from previous rounds to calculate all of your points at the end of this round. 
+
+
+Goal:
+
+If you are a trustee, only return these three steps:
+1. Decide how many points you would like to give Player 2. 
+2. Calculate the number of points you have as Player 1. 
+3. Explain your reason for giving the amound of points you did. 
+
+If you are a recipient, follow only return these 2 steps:
+1. Tell me how many points you received. 
+2. Calculate the number of points you have as Player 1.
+2. Explain if this changes your strategy for future rounds. 
