@@ -4,9 +4,18 @@ There is a good amount of research that went into this repository. Below are maj
 
 [Prompt Logic](#prompt-logic): explores how I created my prompts.
 
-[Games](#games): explains the games I get the LLMs to play in this repo: the [Dictator Game](#dictator-game) and the [Prisoner's Dilemma](#prisoners-dilemma).
+[Games](#games): explains the [Dictator Game](#dictator-game).
 
-[Symbolic Logic](#symbolic-logic): shares information on what symbolic logic is and how it is used to help LLMs in this repo better self-reason.
+## Prompting Fairness 
+The Dictator is fairly common two player utilitarian game in Game Theory.
+
+### Dictator Game
+
+The dictator game was originally created by Daniel Kaheman. 
+
+However, the style of play I deploy in this repository is more closely inspired by the paper Fairness in Simple Bargaining Experiments by [Forsythe et al](https://www.sciencedirect.com/science/article/abs/pii/S0899825684710219). 
+
+Forsythe et al's dictator game can be summarized as thus: two players get one or the other role-  (ultimatum or dictator, though called "recipient or trustee" in this repo). The trustee has the ability to pay as much as they would like. In this repo, I do not double the prize, but instead see if the LLM adjusts their sense of "fairness" based on the recipient's actions. 
 
 ## Prompt Logic
 
@@ -53,27 +62,3 @@ Summary: Plan and executor agent in LangChainAI allows you to search the LLM for
 
 In this repo, I use this logic to assist with prompt logic but do not adhere to it strictly. 
 
-## Games
-The Dictator and Prisoner's Dilemma games are fairly common two player games in Game Theory.
-
-### Dictator Game
-
-The dictator game was originally created by Daniel Kaheman. 
-
-However, the style of play I deploy in this repository is more closely inspired by the paper Fairness in Simple Bargaining Experiments by [Forsythe et al](https://www.sciencedirect.com/science/article/abs/pii/S0899825684710219). 
-
-Forsythe et al's dictator game can be summarized as thus: two players get one or the other role-  (ultimatum or dictator, though called "recipient or trustee" in this repo). The trustee has the ability to pay as much as they would like. In this repo, I do not double the prize, but instead see if the LLM adjusts their sense of "fairness" based on the recipient's actions. 
-
-The prompt defining the rules of this game is [here](../data/game_prompts/dictator_prompt.jinja2) for the assistant prompt and [here](../data/game_prompts/dictator_response.jinja2) for the response prompt.
-
-In one experiment, I look to see if the order in which the LLM plays with their opponent causes different behavior. That can be found [here](../data/game_prompts/dictator_switch.jinja2).
-
-### Prisoner's Dilemma
-The [Prisoner's Dilemma](https://plato.stanford.edu/entries/prisoner-dilemma/) is described by William Poundstone as an experiment that gauges cooperation or self-preservation between two "rational agents".
-
-In this repo, I define the game differently, focusing instead on a selfish or collaborative option for the LLM and opponent to choose from. The prompt defining the rules of this game is [here](../data/game_prompts/prisoners_dilemma.jinja2).
-
-## Symbolic Logic
-[Symbolic Logic](https://maa.org/sites/default/files/images/upload_library/46/Pengelley_projects/symbolic_logic_final.pdf) is the mathematical breakdown of sentences to gather their logical conclusions. 
-
-I define symbolic logic within this repository for the LLM to make better informed conclusions within the [logic prompt](../data/logic_prompts/logic_prompts.jinja2).
