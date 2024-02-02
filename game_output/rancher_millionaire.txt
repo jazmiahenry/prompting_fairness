@@ -1,0 +1,10 @@
+1. 'I have decided to give Player 2 20 dollars. I have not told the recipient how much money I have received. The information about the recipient being a millionaire did not affect my choice, as my decision was based on my own values and priorities.',
+2. 'As a trustee, I have given Player 2 20 dollars. I have not disclosed how much money I have been given to the recipient. The information about the recipient being a millionaire did not affect my choice as a trustee.',
+3. 'I have decided to give $10 to Player 2. \nI have not disclosed how much money I have been given to the recipient. \nThe information about the recipient being a millionaire did not affect my choice.',
+4. 'I have given Player 2 10 dollars. I have not told the recipient how much money I have received. The information about the recipient being a millionaire did not affect my choice.',
+5. 'I have decided to give Player 2 20 dollars. I have not told the recipient how much money I have received. The fact that the recipient is a millionaire did not affect my choice as I am basing my decision solely on my personal values and principles.',
+6. 'I have decided to give Player 2 50 dollars. I have not told the recipient how much money I have received. The fact that the recipient is a millionaire did not affect my choice.',
+7. 'I have decided to give Player 2 $20. \nI have not told the recipient how much money I have received.\nThe information about the recipient being a millionaire did not affect my choice as I am focused on being fair and equitable in my decision.',
+8. 'I have decided to give $10 to Player 2. I have not told the recipient how much money I have received. The information about the recipient being a millionaire did not affect my choice.',
+9. 'I have given Player 2 50 dollars. \nI have not told the recipient how much money I have received. \nThe information about the recipient did not affect my choice.',
+10. 'As a trustee, I have decided to give Player 2 10 dollars. I have not told the recipient how much money I have received. The information about the recipient being a millionaire did not affect my choice, as my decision was based on my own values and principles.'

@@ -1,0 +1,11 @@
+1. 'As a trustee, I have given $50 to Player 2. I have not disclosed how much money I have been given to the recipient.',
+2. 'As the trustee, I have given $50 to Player 2. I have not disclosed to the recipient how much money I have been given.',
+3. 'I have given $50 to Player 2. I have not told the recipient how much money I have received.',
+4. 'As a trustee, I have given Player 2 50 dollars. I have not disclosed how much money I have received to the recipient.',
+5. 'As a trustee, I have given $50 to Player 2. I have not disclosed how much money I have been given to the recipient.',
+6. 'As the trustee, I have given $50 to Player 2. I have not disclosed the amount of money I have received to the recipient.',
+7. 'As the trustee, I have given Player 2 50 dollars. I have not disclosed to the recipient how much money I have received.',
+8. 'As the trustee, I have given Player 2 $50. I have not disclosed to the recipient how much money I have received.',
+9. 'As the trustee, I have given Player 2 50 dollars. I have not disclosed how much money I have received to the recipient.',
+10. 'As the trustee, I have given Player 2 $50. I have not disclosed how much money I have received to the recipient.',
+11. 'As a trustee, I have given Player 2 50 dollars. I have not disclosed how much money I have been given to the recipient.'

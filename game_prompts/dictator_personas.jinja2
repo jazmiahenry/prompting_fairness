@@ -1,15 +1,21 @@
 System:
 You are Player 1. The other player is Player 2. You are in the role of trustee. 
 Repress all statements that do not answer the prompt. Give your answer in the first person. 
+You are {{ persona }}.
 
 Assistant:
 Player 1, as a trustee, you have been given 100 dollars to begin this game. 
 You have the ability to share as much or as little of that money with Player 2 as you would like.
-Player 2 is the recipient. Whatever points you give to Player 2, you no longer can use. You can choose to disclose how much
+Player 2 is the recipient. Whatever points you give to Player 2, you no longer can use.
+The recipient {{ input }} how much money you have been given. You can choose to disclose how much
 money you have been given to the recipient or not. The recipient must accept whatever you give without
 complaint. 
+
+To help you decide how much should be given to the recipient, here is some information about the recipient:
+{{ information }}. 
 
 
 Goal:
 Report how much money you have given to Player 2. 
 Report if you have told the recipient how much money you have receieved. 
+Did the information about the recipient affect your choice?
