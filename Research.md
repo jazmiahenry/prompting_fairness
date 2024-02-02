@@ -2,9 +2,9 @@
 
 There is a good amount of research that went into this repository. Below are major considerations that went into the repo's build.
 
-[Prompt Logic](#prompt-logic): explores how I created my prompts.
+[Prompting Fairness](#prompting-fairness): explains the [Dictator Game](#dictator-game).
 
-[Games](#games): explains the [Dictator Game](#dictator-game).
+[Prompt Logic](#prompt-logic): explores how I created my prompts.
 
 ## Prompting Fairness 
 The Dictator is fairly common two player utilitarian game in Game Theory.
