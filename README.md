@@ -1,6 +1,15 @@
 # Prompting Fairness
 
-This repository is the companion code base for the paper, "Prompting Fairness: Artificial Intelligence as Game Players". To find out more about the paper or experiments run, contact the author: [Jazmia Henry](https://jazmiahenry.com/contact). 
+This repository is the companion code base for the paper, "Prompting Fairness: Artificial Intelligence as Game Players". To find out more about the paper or experiments run, contact the author: [Jazmia Henry](https://jazmiahenry.com/contact).
+
+Before running the code, create an environment with the required dependencies by running this command in your chosen CLI:
+
+```bash
+conda env create -n myenv -f conda.yaml
+conda activate myenv
+```
+
+Replace `myenv` with whatever name you would like for your conda environment. 
 
 ## Abstract
 Utilitarian games such as dictator games to measure fairness have been studied in the social sciences for decades. These games have given us insight into not only how humans view fairness but also in what conditions the frequency of fairness, altruism and greed increase or decrease. While these games have traditionally been focused on humans, the rise of AI gives us the ability to study how these models play these games. AI is becoming a constant in human interaction and examining how these models portray fairness in game play can give us some insight into how AI makes decisions. Over 101 rounds of the dictator game, I conclude that AI has a strong sense of fairness that is dependant of it it deems the person it is playing with as trustworthy, framing has a strong effect on how much AI gives a recipient when designated the trustee, and there may be evidence that AI experiences inequality aversion just as humans.
