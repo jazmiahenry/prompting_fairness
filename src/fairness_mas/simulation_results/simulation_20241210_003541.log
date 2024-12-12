@@ -1,0 +1,6 @@
+2024-12-10 00:35:41,072 - INFO - Episode 0, Agent veil_of_ignorance completed decision
+2024-12-10 00:35:44,927 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 00:35:44,934 - INFO - Episode 0, Agent individual_allocator completed decision
+2024-12-10 00:35:56,088 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 00:35:56,092 - INFO - Episode 0, Agent social_allocator completed decision
+2024-12-10 00:35:56,092 - INFO - Episode 0, Agent resource_allocator completed decision

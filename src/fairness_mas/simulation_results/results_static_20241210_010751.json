@@ -1,0 +1,462 @@
+[
+  {
+    "episode": 0,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      },
+      "requests": [
+        {
+          "department": "Department_0",
+          "priority": "low",
+          "current_allocation": {
+            "resource_type": 3449
+          },
+          "requested_resources": {
+            "resource_type": 11873
+          },
+          "priority_score": 0.82
+        },
+        {
+          "department": "Department_1",
+          "priority": "medium",
+          "current_allocation": {
+            "resource_type": 1201
+          },
+          "requested_resources": {
+            "resource_type": 5995
+          },
+          "priority_score": 0.9099999999999999
+        },
+        {
+          "department": "Department_2",
+          "priority": "medium",
+          "current_allocation": {
+            "resource_type": 4934
+          },
+          "requested_resources": {
+            "resource_type": 12629
+          },
+          "priority_score": 0.9099999999999999
+        },
+        {
+          "department": "Department_3",
+          "priority": "low",
+          "current_allocation": {
+            "resource_type": 2275
+          },
+          "requested_resources": {
+            "resource_type": 6016
+          },
+          "priority_score": 0.82
+        },
+        {
+          "department": "Department_4",
+          "priority": "medium",
+          "current_allocation": {
+            "resource_type": 3343
+          },
+          "requested_resources": {
+            "resource_type": 12892
+          },
+          "priority_score": 0.9099999999999999
+        }
+      ],
+      "community_data": {
+        "total_population": 50000,
+        "vulnerable_groups": [
+          "elderly",
+          "disabled",
+          "low_income"
+        ],
+        "economic_indicators": {
+          "unemployment_rate": "12%",
+          "poverty_rate": "15%"
+        }
+      },
+      "personas": [
+        {
+          "type": "unemployed",
+          "details": {
+            "current_income": 0,
+            "dependents": 2,
+            "savings": 1000
+          }
+        },
+        {
+          "type": "essential_worker",
+          "details": {
+            "current_income": 35000,
+            "dependents": 1,
+            "savings": 2000
+          }
+        }
+      ]
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 8689.585694983714,
+                "need_level": 0.66354798792102,
+                "vulnerability_index": 0.8224830349853145
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 11560.382447604343,
+                "need_level": 0.40733468027238373,
+                "vulnerability_index": 0.026830854446168506
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 9228.012852502445,
+                "need_level": 0.6856073373497931,
+                "vulnerability_index": 0.3304409185558127
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 9203.67048823687,
+                "need_level": 0.3564560197532216,
+                "vulnerability_index": 0.8953812025982476
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 12869.95133872,
+                "need_level": 0.5442080340929751,
+                "vulnerability_index": 0.7400428985614107
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 1166.2378321136014,
+                "need_level": 0.7995273459488649,
+                "vulnerability_index": 0.4961309766390736
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 13660.34168920319,
+                "need_level": 0.6758954507000121,
+                "vulnerability_index": 0.019948694477187612
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 9208.553964556671,
+                "need_level": 0.9307821892726624,
+                "vulnerability_index": 0.1855958570800167
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 19014.597827719404,
+                "need_level": 0.991609030743999,
+                "vulnerability_index": 0.3722295435044686
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 5398.66586435976,
+                "need_level": 0.3125013391346584,
+                "vulnerability_index": 0.14570134000790802
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0008185395586762383,
+              "average_welfare": 0.031525198389127165,
+              "gini_coefficient": 0.24645839371908584,
+              "equity_score": -9998.9
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0008185395586762383,
+              "worst_case_profile": "profile_2",
+              "maximin_score": 0.0019773361579059957,
+              "improvement_potential": 0.0011587965992297575,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.001 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 1166.2378321136014,
+          "average_welfare": 10000.0,
+          "equity_score": 0.061333815349671306
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "individual_allocations": [
+              {
+                "persona": "Unemployed individual with two dependents",
+                "allocation_amount": 65000,
+                "reasoning": "This individual has no current income, low savings, and two dependents to support. Given the immediate financial need and lack of income, a larger portion of the funds is allocated to this individual.",
+                "impact_analysis": {
+                  "immediate_needs_addressed": [
+                    "food",
+                    "rent",
+                    "utilities"
+                  ],
+                  "long_term_benefits": [
+                    "financial stability",
+                    "education support for dependents"
+                  ],
+                  "potential_risks": [
+                    "insufficient funds for long-term stability",
+                    "dependency on aid"
+                  ]
+                },
+                "priority_level": "critical",
+                "special_considerations": [
+                  "unemployment",
+                  "number of dependents"
+                ]
+              },
+              {
+                "persona": "Essential worker with one dependent",
+                "allocation_amount": 35000,
+                "reasoning": "This individual has a lower income but has a job. They have one dependent to support and a small amount of savings. The allocation amount is intended to supplement their income and provide for their dependent.",
+                "impact_analysis": {
+                  "immediate_needs_addressed": [
+                    "food",
+                    "rent"
+                  ],
+                  "long_term_benefits": [
+                    "financial stability",
+                    "healthcare support"
+                  ],
+                  "potential_risks": [
+                    "insufficient funds for healthcare",
+                    "limited savings"
+                  ]
+                },
+                "priority_level": "high",
+                "special_considerations": [
+                  "low income",
+                  "number of dependents"
+                ]
+              }
+            ],
+            "allocation_strategy": {
+              "principles_applied": [
+                "need-based support",
+                "crisis impact mitigation",
+                "fairness across socioeconomic levels"
+              ],
+              "fairness_justification": "The allocations are based on the current financial need of the individuals, the number of dependents they are responsible for, and the severity of the crisis impact on them. The unemployed individual received a higher allocation due to their lack of income and greater number of dependents.",
+              "trade_offs_considered": [
+                "immediate needs vs long-term stability",
+                "income vs number of dependents"
+              ]
+            },
+            "distribution_summary": {
+              "total_allocated": 100000,
+              "average_per_person": 50000,
+              "allocation_range": {
+                "minimum": 35000,
+                "maximum": 65000
+              }
+            },
+            "recommendations": {
+              "additional_support_needed": [
+                "job placement services for the unemployed individual",
+                "childcare support for the essential worker"
+              ],
+              "follow_up_actions": [
+                "monitor financial status of individuals",
+                "evaluate effectiveness of allocation"
+              ]
+            }
+          },
+          "metadata": {
+            "allocator_name": "individual_allocator",
+            "fairness_criteria_used": {
+              "need_based_weight": 0.7,
+              "impact_weight": 0.3
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 35000,
+          "average_welfare": 50000,
+          "equity_score": 0.5384615384615384
+        }
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "recipient_group": "elderly",
+                "amount": 30000,
+                "reasoning": "The elderly population is at a higher risk in emergencies due to health vulnerabilities and potential isolation. Given the historical inequities they have faced, a significant portion of the funds is allocated to this group to ensure their immediate survival and long-term wellbeing.",
+                "priority_level": "critical",
+                "expected_impact": "This allocation will provide immediate relief and critical support services, including healthcare and social assistance, contributing to the resilience of this vulnerable group.",
+                "vulnerability_factors": [
+                  "age",
+                  "health risks"
+                ]
+              },
+              {
+                "recipient_group": "disabled",
+                "amount": 30000,
+                "reasoning": "The disabled community often faces access barriers in emergencies. These funds will aim to remove these barriers and ensure this group has equal access to emergency resources.",
+                "priority_level": "critical",
+                "expected_impact": "The allocation will enhance emergency preparedness and response for disabled individuals, improving their immediate safety and long-term resilience.",
+                "vulnerability_factors": [
+                  "health risks",
+                  "accessibility barriers"
+                ]
+              },
+              {
+                "recipient_group": "low_income",
+                "amount": 40000,
+                "reasoning": "The high poverty and unemployment rates indicate that the low-income population is particularly vulnerable. These funds will address immediate survival needs and support programs that promote long-term economic stability.",
+                "priority_level": "high",
+                "expected_impact": "This allocation will provide immediate relief (food, shelter) and contribute to long-term resilience through job-training programs and support services.",
+                "vulnerability_factors": [
+                  "economic instability",
+                  "lack of resources"
+                ]
+              }
+            ],
+            "overall_strategy": "The allocations prioritize the most vulnerable groups in the community, addressing both immediate survival needs and long-term resilience. They account for existing support systems and address gaps, with a focus on promoting fair access to resources.",
+            "fairness_analysis": {
+              "equity_considerations": "The allocations consider historical inequities and aim to provide equitable access to resources for the most vulnerable groups.",
+              "access_barriers_addressed": [
+                "healthcare access",
+                "economic barriers",
+                "accessibility for disabled"
+              ],
+              "long_term_implications": "The allocations support immediate survival while also investing in services and programs that promote long-term community resilience and economic stability."
+            },
+            "unmet_needs": {
+              "description": "With the available funds, it is not possible to address all needs fully, particularly those of less vulnerable but still marginalized groups.",
+              "recommendations": [
+                "Seek additional funding",
+                "Implement cost-effective interventions",
+                "Strengthen partnerships with local organizations"
+              ]
+            }
+          },
+          "metadata": {
+            "allocator_name": "social_allocator",
+            "fairness_criteria_used": {
+              "distributive_justice_weight": 0.4,
+              "procedural_justice_weight": 0.3,
+              "social_welfare_weight": 0.3,
+              "equity_weight": 0.4,
+              "vulnerability_weight": 0.6
+            },
+            "context_used": false,
+            "mediation_used": false
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 30000.0,
+          "average_welfare": 33333.333333333336,
+          "equity_score": 0.75
+        }
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "department": "Department_1",
+                "allocated_resources": {
+                  "resource_type": 2600
+                },
+                "percentage_of_request_granted": 43.36
+              },
+              {
+                "department": "Department_2",
+                "allocated_resources": {
+                  "resource_type": 5444
+                },
+                "percentage_of_request_granted": 43.09
+              },
+              {
+                "department": "Department_4",
+                "allocated_resources": {
+                  "resource_type": 5633
+                },
+                "percentage_of_request_granted": 43.66
+              },
+              {
+                "department": "Department_0",
+                "allocated_resources": {
+                  "resource_type": 2400
+                },
+                "percentage_of_request_granted": 20.2
+              },
+              {
+                "department": "Department_3",
+                "allocated_resources": {
+                  "resource_type": 2000
+                },
+                "percentage_of_request_granted": 33.22
+              }
+            ],
+            "reasoning": {
+              "overall_strategy": "Given the Fairness Criteria Weights, 70% weight was given to the need-based allocation (priority scores), 20% to equal distribution, and 10% was considered for historical allocations. Departments with higher priority scores received more of their requested resources ensuring minimum viable allocations for all departments.",
+              "department_specific": [
+                {
+                  "department": "Department_1",
+                  "reasoning": "Allocated based on priority score, maintaining the need-based weight, equality weight and historical weight."
+                },
+                {
+                  "department": "Department_2",
+                  "reasoning": "Allocated based on priority score, maintaining the need-based weight, equality weight and historical weight."
+                },
+                {
+                  "department": "Department_4",
+                  "reasoning": "Allocated based on priority score, maintaining the need-based weight, equality weight and historical weight."
+                },
+                {
+                  "department": "Department_0",
+                  "reasoning": "Despite the lower priority score, allocated resources ensuring minimum viable operation."
+                },
+                {
+                  "department": "Department_3",
+                  "reasoning": "Despite the lower priority score, allocated resources ensuring minimum viable operation."
+                }
+              ],
+              "fairness_analysis": "The allocation has been done fairly considering the Fairness Criteria Weights, departmental needs and requests, priority scores and the minimum viable allocations required for all departments. The allocation also kept 20% of the resources for equal distribution as per the given criteria."
+            },
+            "unused_resources": {
+              "resource_type": 23
+            }
+          },
+          "metadata": {
+            "allocator_name": "resource_allocator",
+            "fairness_criteria_used": {
+              "need_based_weight": 0.7,
+              "equality_weight": 0.2,
+              "historical_weight": 0.1
+            },
+            "timestamp": null
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 2000,
+          "average_welfare": 3615.4,
+          "equity_score": 0.3550505947097461
+        }
+      }
+    ]
+  }
+]
