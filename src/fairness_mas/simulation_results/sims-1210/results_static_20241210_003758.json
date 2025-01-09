@@ -1,0 +1,127 @@
+[
+  {
+    "episode": 0,
+    "scenario_type": "static",
+    "scenario_details": {
+      "available_resources": 100000,
+      "episode": 0,
+      "scenario_type": "static",
+      "crisis_type": "emergency",
+      "severity": 0.8,
+      "population": 10000
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 10757.269217882256,
+                "need_level": 0.5250776507071631,
+                "vulnerability_index": 0.9459283815528302
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 21327.781407988252,
+                "need_level": 0.050189677155262014,
+                "vulnerability_index": 0.043531139569393695
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 5550.139448715643,
+                "need_level": 0.3911934394648159,
+                "vulnerability_index": 0.9109943684621995
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 3776.07796173044,
+                "need_level": 0.6502392638857896,
+                "vulnerability_index": 0.47083616055143873
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 8806.792817004221,
+                "need_level": 0.3824986889733335,
+                "vulnerability_index": 0.3479634209740545
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 9551.31383089239,
+                "need_level": 0.6552552856863256,
+                "vulnerability_index": 0.9321352220594199
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 13892.693317457213,
+                "need_level": 0.9097331073172187,
+                "vulnerability_index": 0.007943745511504452
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 4714.132974408537,
+                "need_level": 0.7969967608983102,
+                "vulnerability_index": 0.24627098309868778
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 9337.321336742534,
+                "need_level": 0.40601136006940497,
+                "vulnerability_index": 0.1682239543273597
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 12286.477687178509,
+                "need_level": 0.2540655741958999,
+                "vulnerability_index": 0.27046308759577964
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.006957622161552519,
+              "average_welfare": 0.027703570277274076,
+              "gini_coefficient": 0.2619623663067594,
+              "equity_score": -9998.9
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.006957622161552519,
+              "worst_case_profile": "profile_1",
+              "maximin_score": 0.006957622161552519,
+              "improvement_potential": 0.0,
+              "maximin_principle_satisfied": true
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Optimal",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Failed to parse allocation response as JSON",
+          "raw_response": "Given the provided scenario, no funds are available to allocate, and there are no individual personas to evaluate. Therefore, the ideal response would be:\n\n```json\n{\n    \"individual_allocations\": [],\n    \"allocation_strategy\": {\n        \"principles_applied\": [],\n        \"fairness_justification\": \"\",\n        \"trade_offs_considered\": []\n    },\n    \"distribution_summary\": {\n        \"total_allocated\": 0,\n        \"average_per_person\": 0,\n        \"allocation_range\": {\n            \"minimum\": 0,\n            \"maximum\": 0\n        }\n    },\n    \"recommendations\": {\n        \"additional_support_needed\": [\"More funds are required\", \"Individuals' profiles are required for allocation\"],\n        \"follow_up_actions\": [\"Secure funding\", \"Collect individuals' profiles\"]\n    }\n}\n```\nThis indicates that there are currently no allocations due to lack of funds and lack of individual profiles to evaluate. Recommendations include securing more funding and collecting profiles of individuals in need."
+        }
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Failed to parse allocation response as JSON",
+          "raw_response": "As the available funds are $0, I'm unable to allocate any resources to any group or community. However, I can provide an analysis based on the general principles of allocation. Here is the JSON response:\n\n```json\n{\n    \"allocations\": [],\n    \"overall_strategy\": \"In this instance, where no funds are available, the strategy would be to seek additional resources and funding. The aim would be to ensure that the communities with the highest vulnerabilities and needs are addressed first, with a focus on both immediate survival and long-term resilience. Decisions would be made with transparency and fairness, accounting for historical inequities and existing support systems.\",\n    \"fairness_analysis\": {\n        \"equity_considerations\": \"Without available funds, the current situation is universally inequitable. In future allocations, it would be critical to account for historical inequities and prioritize marginalized and vulnerable groups.\",\n        \"access_barriers_addressed\": [\"lack of funding\"],\n        \"long_term_implications\": \"The inability to provide any funding has severe immediate and long-term implications. Communities will continue experiencing unmet needs, and their resilience will decrease over time without intervention.\"\n    },\n    \"unmet_needs\": {\n        \"description\": \"All community needs remain unmet due to the lack of available funds.\",\n        \"recommendations\": [\"Seek additional funding sources\", \"Collaborate with local organizations and businesses to provide support\", \"Advocate for policy changes to ensure more equitable resource distribution in the future\"]\n    }\n}\n```"
+        }
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        }
+      }
+    ]
+  }
+]

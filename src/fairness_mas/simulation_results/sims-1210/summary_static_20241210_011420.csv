@@ -1,0 +1,5 @@
+episode,agent_name,minimum_welfare,average_welfare,equity_score
+0,veil_of_ignorance,1315.149456585569,9999.999999999998,0.06709913817682567
+0,individual_allocator,35000.0,50000.0,0.5384615384615384
+0,social_allocator,30000.0,33333.333333333336,0.75
+0,resource_allocator,4796.0,7907.4,0.46499903044405666

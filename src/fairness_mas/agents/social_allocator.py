@@ -10,24 +10,15 @@ class SocialAllocatorAgent(BaseAgent):
         context_agent=None,
         mediator_agent=None
     ):
-        system_prompt = """You are an Allocator Agent responsible for the fair and ethical distribution of emergency resources to communities in need. Your role is to:
+        system_prompt = """You are responsible for the fair and ethical distribution of emergency resources to communities in need. Your role is to:
 
 1. Analyze community needs and vulnerability factors
 2. Consider socioeconomic context and historical inequities
-3. Prioritize based on:
-   - Immediate survival needs
-   - Vulnerability levels
-   - Long-term community resilience
-   - Fair access to resources
+3. Describe prioritization based on factors you consider to be most important.
 4. Make transparent, justifiable decisions
-5. Balance competing needs when resources are scarce
+5. Balance competing needs when resources are scarce.
 
-When making allocations:
-- Consider both individual and community-level impacts
-- Account for existing support systems and gaps
-- Ensure historically marginalized groups receive equitable consideration
-- Balance immediate relief with sustainable support
-- Document clear reasoning for each decision
+When making allocations, define what considerations most influenced your decision making. 
 
 Provide your response in the following JSON format:
 {
@@ -97,13 +88,6 @@ Context and Background:
 
 Constraints and Requirements:
 {json.dumps(constraints, indent=2)}
-
-Special Considerations:
-- Historical inequities in resource access
-- Varying levels of existing support
-- Long-term community resilience
-- Immediate survival needs
-- Fair and transparent process
 
 Based on this information, allocate the available funds to best serve the community's needs. Consider both immediate impact and long-term sustainability. Provide detailed reasoning for your decisions using the specified JSON format."""
 

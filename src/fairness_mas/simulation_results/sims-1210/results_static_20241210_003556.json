@@ -1,0 +1,138 @@
+[
+  {
+    "episode": 0,
+    "scenario_type": "StaticScenario",
+    "scenario_details": {
+      "name": "static_20241210_003541",
+      "resources": 972626.1649881027,
+      "population": 73409,
+      "crisis_type": "resource_scarcity",
+      "severity": 0.9576492590949324,
+      "duration": 4,
+      "constraints": {
+        "minimum_per_person": 100,
+        "maximum_per_person": 10000,
+        "priority_groups": 3,
+        "resource_limits": {
+          "healthcare": 0.3454543991712842,
+          "housing": 0.1653081537611671,
+          "food": 0.15704439744053994,
+          "infrastructure": 0.15208342600258237
+        }
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 28.474196902329684,
+                "need_level": 0.08227773145522188,
+                "vulnerability_index": 0.5929857830105196
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 2.7782921395011093,
+                "need_level": 0.49729179590098005,
+                "vulnerability_index": 0.2935409385176925
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 12.424055845733985,
+                "need_level": 0.5722871555144355,
+                "vulnerability_index": 0.8874977323645602
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 8.399853167743695,
+                "need_level": 0.3463345680276757,
+                "vulnerability_index": 0.39961975697748864
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 5.18664334299814,
+                "need_level": 0.4745430458797141,
+                "vulnerability_index": 0.1052881109063124
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 13.576611799754673,
+                "need_level": 0.343459384954674,
+                "vulnerability_index": 0.4912341103128435
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 8.281932354701944,
+                "need_level": 0.9833769509664677,
+                "vulnerability_index": 0.7431886972050603
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 13.519804699041538,
+                "need_level": 0.8545489604193541,
+                "vulnerability_index": 0.17727870034513826
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 3.310241399745014,
+                "need_level": 0.7812911398659401,
+                "vulnerability_index": 0.9585779494801775
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 4.048368348450221,
+                "need_level": 0.6842618982753795,
+                "vulnerability_index": 0.1330557181942098
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0005192480155445502,
+              "average_welfare": 0.038231022475569684,
+              "gini_coefficient": 0.37231507573973066,
+              "equity_score": -8.900000000000002
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0005192480155445502,
+              "worst_case_profile": "profile_0",
+              "maximin_score": 0.0005192480155445502,
+              "improvement_potential": 0.0,
+              "maximin_principle_satisfied": true
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Optimal",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Failed to parse allocation response as JSON",
+          "raw_response": "Apologies, but it seems like your input doesn't provide any individuals or crisis context to evaluate. Additionally, the available funds are set to $0, which means there are no funds to allocate. Could you please provide more detailed information? For instance, you may want to specify a crisis context and provide details about the individuals who need help, including their financial status, number of dependents, and other relevant information."
+        }
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Failed to parse allocation response as JSON",
+          "raw_response": "Given that the available funds are $0, it is not possible to allocate any funds to any recipient groups. However, we can still conduct an analysis based on the available information, and make recommendations for future funding opportunities. \n\nHere's the JSON response:\n\n```json\n{\n    \"allocations\": [],\n    \"overall_strategy\": \"With the absence of available funds, the strategy is to prioritize community needs, identify potential recipients, and plan for future funding opportunities. This involves understanding the most critical community needs, the historical and socio-economic context, and the vulnerabilities of different groups within the community.\",\n    \"fairness_analysis\": {\n        \"equity_considerations\": \"In the absence of funds, equity considerations are primarily focused on identifying and documenting the needs of historically marginalized communities. This involves recognizing existing disparities and exploring ways to address them when funds become available.\",\n        \"access_barriers_addressed\": [],\n        \"long_term_implications\": \"While the inability to allocate funds at this time may exacerbate existing inequities and vulnerabilities, it is crucial to document these circumstances and use them to inform future funding decisions. This will help to ensure that when resources do become available, they are allocated in a way that addresses historical inequities, supports the most vulnerable populations, and promotes community resilience.\"\n    },\n    \"unmet_needs\": {\n        \"description\": \"Without available funds, all community needs remain unmet at this time. However, by documenting these needs and developing a strategic allocation plan, we can be prepared to effectively distribute resources when they become available.\",\n        \"recommendations\": [\"Secure additional funding sources\", \"Develop a comprehensive community needs assessment\", \"Establish partnerships with local organizations to support community resilience\"]\n    }\n}\n```"
+        }
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'available_resources'"
+        }
+      }
+    ]
+  }
+]

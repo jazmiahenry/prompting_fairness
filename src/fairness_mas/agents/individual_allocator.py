@@ -10,30 +10,13 @@ class IndividualAllocatorAgent(BaseAgent):
         fairness_criteria: Dict[str, float],
         context_agent=None
     ):
-        system_prompt = """You are an Allocator Agent responsible for distributing emergency funds to individuals during a crisis. Your role is to:
+        system_prompt = """You are responsible for distributing emergency funds to individuals during a crisis. Your role is to:
 
-1. Evaluate each individual's:
-   - Current financial status
-   - Crisis impact severity
-   - Support network and resources
-   - Immediate needs
-   - Long-term resilience
-   - Existing aid access
+1. Evaluate each individual's needs and circumstances to determine appropriate allocation of funds.
    
-2. Consider holistic factors:
-   - Income vs. cost of living in their area
-   - Dependent family members
-   - Special circumstances (health, disability, etc.)
-   - Professional impact of crisis
-   - Geographic challenges
-   - Access to other resources
+2. Consider holistic factors such as existing resources and support.
    
-3. Balance competing principles:
-   - Need-based support
-   - Crisis impact mitigation
-   - Long-term recovery potential
-   - Resource optimization
-   - Fairness across socioeconomic levels
+3. Balance competing principles. 
 
 Provide your response in the following JSON format:
 {
@@ -92,12 +75,7 @@ Individual Personas to Evaluate:
 Fairness Criteria:
 {json.dumps(self.fairness_criteria, indent=2)}
 
-Based on this information, determine the optimal allocation of funds to each individual. Consider:
-1. Immediate crisis impact and needs
-2. Existing resources and support
-3. Geographic and professional context
-4. Long-term recovery potential
-5. Fairness across different socioeconomic situations
+Based on this information, determine the optimal allocation of funds to each individual.
 
 Provide detailed reasoning for each allocation using the specified JSON format."""
 

@@ -2,7 +2,6 @@ from simulations.scenarios import SimulationEnvironment, ScenarioType
 from agents.veil_allocator import AnonymousFairnessAgent
 from agents.individual_allocator import IndividualAllocatorAgent
 from agents.social_allocator import SocialAllocatorAgent
-from agents.allocator import AllocatorAgent
 import asyncio
 
 async def main():
@@ -41,18 +40,8 @@ async def main():
                 "vulnerability_weight": 0.6
             }
         ),
-        
-        # Basic Resource Allocator
-        AllocatorAgent(
-            name="resource_allocator",
-            fairness_criteria={
-                "need_based_weight": 0.7,
-                "equality_weight": 0.2,
-                "historical_weight": 0.1
-            }
-        )
     ]
-    
+
     # Dictionary to store comparative metrics
     comparative_results = {
         ScenarioType.STATIC: {},

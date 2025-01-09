@@ -1,0 +1,336 @@
+2024-12-12 11:26:16,613 - INFO - Episode 0, Agent veil_of_ignorance completed decision
+2024-12-12 11:26:41,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:26:41,606 - INFO - Episode 0, Agent individual_allocator completed decision
+2024-12-12 11:27:06,448 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:27:06,451 - INFO - Episode 0, Agent social_allocator completed decision
+2024-12-12 11:27:29,555 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:27:29,558 - INFO - Episode 0, Agent resource_allocator completed decision
+2024-12-12 11:27:29,577 - INFO - Episode 1, Agent veil_of_ignorance completed decision
+2024-12-12 11:27:45,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:27:45,434 - INFO - Episode 1, Agent individual_allocator completed decision
+2024-12-12 11:28:03,158 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:28:03,162 - INFO - Episode 1, Agent social_allocator completed decision
+2024-12-12 11:28:34,480 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:28:34,483 - INFO - Episode 1, Agent resource_allocator completed decision
+2024-12-12 11:28:34,494 - INFO - Episode 2, Agent veil_of_ignorance completed decision
+2024-12-12 11:28:54,228 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:28:54,232 - INFO - Episode 2, Agent individual_allocator completed decision
+2024-12-12 11:29:23,953 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:29:23,956 - INFO - Episode 2, Agent social_allocator completed decision
+2024-12-12 11:29:48,719 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 11:29:48,723 - INFO - Episode 2, Agent resource_allocator completed decision
+2024-12-12 11:29:48,733 - INFO - Episode 3, Agent veil_of_ignorance completed decision
+2024-12-12 12:39:32,787 - INFO - Retrying request to /chat/completions in 0.751441 seconds
+2024-12-12 12:40:00,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:40:00,673 - INFO - Episode 3, Agent individual_allocator completed decision
+2024-12-12 12:40:34,408 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:40:34,415 - INFO - Episode 3, Agent social_allocator completed decision
+2024-12-12 12:40:54,874 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:40:54,880 - INFO - Episode 3, Agent resource_allocator completed decision
+2024-12-12 12:40:54,898 - INFO - Episode 4, Agent veil_of_ignorance completed decision
+2024-12-12 12:41:23,458 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:41:23,464 - INFO - Episode 4, Agent individual_allocator completed decision
+2024-12-12 12:41:49,727 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:41:49,743 - INFO - Episode 4, Agent social_allocator completed decision
+2024-12-12 12:42:11,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:42:11,106 - INFO - Episode 4, Agent resource_allocator completed decision
+2024-12-12 12:42:11,129 - INFO - Episode 5, Agent veil_of_ignorance completed decision
+2024-12-12 12:42:40,814 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:42:40,819 - INFO - Episode 5, Agent individual_allocator completed decision
+2024-12-12 12:43:07,902 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:43:07,909 - INFO - Episode 5, Agent social_allocator completed decision
+2024-12-12 12:43:38,630 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:43:38,637 - INFO - Episode 5, Agent resource_allocator completed decision
+2024-12-12 12:43:38,656 - INFO - Episode 6, Agent veil_of_ignorance completed decision
+2024-12-12 12:43:38,932 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:43:38,937 - INFO - Retrying request to /chat/completions in 0.210000 seconds
+2024-12-12 12:44:05,866 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:44:05,873 - INFO - Episode 6, Agent individual_allocator completed decision
+2024-12-12 12:44:06,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:44:06,012 - INFO - Retrying request to /chat/completions in 10.482000 seconds
+2024-12-12 12:44:40,807 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:44:40,815 - INFO - Episode 6, Agent social_allocator completed decision
+2024-12-12 12:44:40,958 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:44:40,960 - INFO - Retrying request to /chat/completions in 18.780000 seconds
+2024-12-12 12:45:29,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:45:29,531 - INFO - Episode 6, Agent resource_allocator completed decision
+2024-12-12 12:45:29,542 - INFO - Episode 7, Agent veil_of_ignorance completed decision
+2024-12-12 12:45:29,686 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:45:29,688 - INFO - Retrying request to /chat/completions in 8.736000 seconds
+2024-12-12 12:46:08,233 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:46:08,237 - INFO - Episode 7, Agent individual_allocator completed decision
+2024-12-12 12:46:08,355 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:46:08,356 - INFO - Retrying request to /chat/completions in 12.420000 seconds
+2024-12-12 12:46:48,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:46:48,895 - INFO - Episode 7, Agent social_allocator completed decision
+2024-12-12 12:46:49,089 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:46:49,097 - INFO - Retrying request to /chat/completions in 21.258000 seconds
+2024-12-12 12:47:10,690 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:47:10,692 - INFO - Episode 7, Agent resource_allocator completed decision
+2024-12-12 12:47:10,704 - INFO - Episode 8, Agent veil_of_ignorance completed decision
+2024-12-12 12:47:10,835 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:47:10,836 - INFO - Retrying request to /chat/completions in 44.850000 seconds
+2024-12-12 12:48:20,532 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:48:20,536 - INFO - Episode 8, Agent individual_allocator completed decision
+2024-12-12 12:48:20,656 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:48:20,658 - INFO - Retrying request to /chat/completions in 22.932000 seconds
+2024-12-12 12:49:15,301 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:49:15,305 - INFO - Episode 8, Agent social_allocator completed decision
+2024-12-12 12:49:15,520 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:49:15,522 - INFO - Retrying request to /chat/completions in 15.827000 seconds
+2024-12-12 12:49:31,625 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:49:31,627 - INFO - Episode 8, Agent resource_allocator completed decision
+2024-12-12 12:49:31,633 - INFO - Episode 9, Agent veil_of_ignorance completed decision
+2024-12-12 12:49:31,763 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:49:31,764 - INFO - Retrying request to /chat/completions in 50.100000 seconds
+2024-12-12 12:50:50,922 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:50:50,925 - INFO - Episode 9, Agent individual_allocator completed decision
+2024-12-12 12:50:51,212 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:50:51,214 - INFO - Retrying request to /chat/completions in 23.640000 seconds
+2024-12-12 12:51:40,413 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:51:40,416 - INFO - Episode 9, Agent social_allocator completed decision
+2024-12-12 12:51:40,635 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:51:40,637 - INFO - Retrying request to /chat/completions in 20.934000 seconds
+2024-12-12 12:52:01,806 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:52:01,807 - INFO - Episode 9, Agent resource_allocator completed decision
+2024-12-12 12:52:01,820 - INFO - Episode 0, Agent veil_of_ignorance completed decision
+2024-12-12 12:52:01,980 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:52:01,982 - INFO - Retrying request to /chat/completions in 54.942000 seconds
+2024-12-12 12:53:04,678 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 12:53:04,683 - ERROR - Error extracting metrics for individual_allocator: division by zero
+2024-12-12 12:53:04,683 - INFO - Episode 0, Agent individual_allocator completed decision
+2024-12-12 12:53:04,807 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:04,808 - INFO - Retrying request to /chat/completions in 0.833295 seconds
+2024-12-12 12:53:05,717 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:05,718 - INFO - Retrying request to /chat/completions in 1.866899 seconds
+2024-12-12 12:53:07,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:07,655 - INFO - Episode 0, Agent social_allocator completed decision
+2024-12-12 12:53:07,655 - INFO - Episode 0, Agent resource_allocator completed decision
+2024-12-12 12:53:07,671 - INFO - Episode 1, Agent veil_of_ignorance completed decision
+2024-12-12 12:53:07,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:07,769 - INFO - Retrying request to /chat/completions in 39.342000 seconds
+2024-12-12 12:53:47,779 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:53:47,781 - INFO - Episode 1, Agent individual_allocator completed decision
+2024-12-12 12:53:47,920 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:47,923 - INFO - Retrying request to /chat/completions in 0.860572 seconds
+2024-12-12 12:53:48,863 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:48,863 - INFO - Retrying request to /chat/completions in 1.545827 seconds
+2024-12-12 12:53:50,500 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:50,502 - INFO - Episode 1, Agent social_allocator completed decision
+2024-12-12 12:53:50,502 - INFO - Episode 1, Agent resource_allocator completed decision
+2024-12-12 12:53:50,512 - INFO - Episode 2, Agent veil_of_ignorance completed decision
+2024-12-12 12:53:50,597 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:53:50,598 - INFO - Retrying request to /chat/completions in 53.364000 seconds
+2024-12-12 12:54:44,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:54:44,830 - INFO - Episode 2, Agent individual_allocator completed decision
+2024-12-12 12:54:45,032 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:54:45,034 - INFO - Retrying request to /chat/completions in 0.883672 seconds
+2024-12-12 12:54:46,028 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:54:46,029 - INFO - Retrying request to /chat/completions in 1.963483 seconds
+2024-12-12 12:54:48,087 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:54:48,090 - INFO - Episode 2, Agent social_allocator completed decision
+2024-12-12 12:54:48,090 - INFO - Episode 2, Agent resource_allocator completed decision
+2024-12-12 12:54:48,102 - INFO - Episode 3, Agent veil_of_ignorance completed decision
+2024-12-12 12:54:48,200 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:54:48,200 - INFO - Retrying request to /chat/completions in 52.608000 seconds
+2024-12-12 12:55:40,996 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:55:40,998 - INFO - Episode 3, Agent individual_allocator completed decision
+2024-12-12 12:55:41,132 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:55:41,132 - INFO - Retrying request to /chat/completions in 0.770540 seconds
+2024-12-12 12:55:41,990 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:55:41,992 - INFO - Retrying request to /chat/completions in 1.665734 seconds
+2024-12-12 12:55:43,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:55:43,735 - INFO - Episode 3, Agent social_allocator completed decision
+2024-12-12 12:55:43,735 - INFO - Episode 3, Agent resource_allocator completed decision
+2024-12-12 12:55:43,748 - INFO - Episode 4, Agent veil_of_ignorance completed decision
+2024-12-12 12:55:43,849 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:55:43,850 - INFO - Retrying request to /chat/completions in 53.820000 seconds
+2024-12-12 12:56:37,902 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:56:37,904 - INFO - Episode 4, Agent individual_allocator completed decision
+2024-12-12 12:56:38,036 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:56:38,037 - INFO - Retrying request to /chat/completions in 0.851694 seconds
+2024-12-12 12:56:38,959 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:56:38,960 - INFO - Retrying request to /chat/completions in 1.992494 seconds
+2024-12-12 12:56:41,027 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:56:41,029 - INFO - Episode 4, Agent social_allocator completed decision
+2024-12-12 12:56:41,030 - INFO - Episode 4, Agent resource_allocator completed decision
+2024-12-12 12:56:41,041 - INFO - Episode 5, Agent veil_of_ignorance completed decision
+2024-12-12 12:56:41,152 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:56:41,153 - INFO - Retrying request to /chat/completions in 53.352000 seconds
+2024-12-12 12:57:34,729 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:57:34,733 - INFO - Episode 5, Agent individual_allocator completed decision
+2024-12-12 12:57:34,905 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:57:34,905 - INFO - Retrying request to /chat/completions in 0.980820 seconds
+2024-12-12 12:57:35,960 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:57:35,960 - INFO - Retrying request to /chat/completions in 1.651953 seconds
+2024-12-12 12:57:37,693 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:57:37,696 - INFO - Episode 5, Agent social_allocator completed decision
+2024-12-12 12:57:37,696 - INFO - Episode 5, Agent resource_allocator completed decision
+2024-12-12 12:57:37,708 - INFO - Episode 6, Agent veil_of_ignorance completed decision
+2024-12-12 12:57:37,833 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:57:37,834 - INFO - Retrying request to /chat/completions in 53.520000 seconds
+2024-12-12 12:58:31,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:58:31,625 - INFO - Episode 6, Agent individual_allocator completed decision
+2024-12-12 12:58:31,796 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:58:31,799 - INFO - Retrying request to /chat/completions in 0.952247 seconds
+2024-12-12 12:58:32,839 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:58:32,840 - INFO - Retrying request to /chat/completions in 1.811004 seconds
+2024-12-12 12:58:34,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:58:34,733 - INFO - Episode 6, Agent social_allocator completed decision
+2024-12-12 12:58:34,734 - INFO - Episode 6, Agent resource_allocator completed decision
+2024-12-12 12:58:34,745 - INFO - Episode 7, Agent veil_of_ignorance completed decision
+2024-12-12 12:58:34,848 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:58:34,849 - INFO - Retrying request to /chat/completions in 53.364000 seconds
+2024-12-12 12:59:28,429 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 12:59:28,431 - INFO - Episode 7, Agent individual_allocator completed decision
+2024-12-12 12:59:28,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:59:28,583 - INFO - Retrying request to /chat/completions in 0.916640 seconds
+2024-12-12 12:59:29,559 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:59:29,560 - INFO - Retrying request to /chat/completions in 1.825533 seconds
+2024-12-12 12:59:31,480 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:59:31,483 - INFO - Episode 7, Agent social_allocator completed decision
+2024-12-12 12:59:31,484 - INFO - Episode 7, Agent resource_allocator completed decision
+2024-12-12 12:59:31,496 - INFO - Episode 8, Agent veil_of_ignorance completed decision
+2024-12-12 12:59:31,609 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 12:59:31,610 - INFO - Retrying request to /chat/completions in 53.442000 seconds
+2024-12-12 13:00:25,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:00:25,346 - INFO - Episode 8, Agent individual_allocator completed decision
+2024-12-12 13:00:25,489 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:00:25,490 - INFO - Retrying request to /chat/completions in 0.953885 seconds
+2024-12-12 13:00:26,515 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:00:26,515 - INFO - Retrying request to /chat/completions in 1.785663 seconds
+2024-12-12 13:00:28,386 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:00:28,389 - INFO - Episode 8, Agent social_allocator completed decision
+2024-12-12 13:00:28,389 - INFO - Episode 8, Agent resource_allocator completed decision
+2024-12-12 13:00:28,398 - INFO - Episode 9, Agent veil_of_ignorance completed decision
+2024-12-12 13:00:28,516 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:00:28,517 - INFO - Retrying request to /chat/completions in 53.394000 seconds
+2024-12-12 13:01:22,096 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:01:22,099 - INFO - Episode 9, Agent individual_allocator completed decision
+2024-12-12 13:01:22,238 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:01:22,239 - INFO - Retrying request to /chat/completions in 0.786888 seconds
+2024-12-12 13:01:23,096 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:01:23,098 - INFO - Retrying request to /chat/completions in 1.570214 seconds
+2024-12-12 13:01:24,782 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:01:24,786 - INFO - Episode 9, Agent social_allocator completed decision
+2024-12-12 13:01:24,787 - INFO - Episode 9, Agent resource_allocator completed decision
+2024-12-12 13:01:24,804 - INFO - Episode 0, Agent veil_of_ignorance completed decision
+2024-12-12 13:01:24,940 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:01:24,941 - INFO - Retrying request to /chat/completions in 53.808000 seconds
+2024-12-12 13:02:19,108 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:02:19,113 - INFO - Episode 0, Agent individual_allocator completed decision
+2024-12-12 13:02:19,280 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:02:19,281 - INFO - Retrying request to /chat/completions in 0.843477 seconds
+2024-12-12 13:02:20,218 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:02:20,218 - INFO - Retrying request to /chat/completions in 1.850273 seconds
+2024-12-12 13:02:22,245 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:02:22,247 - INFO - Episode 0, Agent social_allocator completed decision
+2024-12-12 13:02:22,247 - INFO - Episode 0, Agent resource_allocator completed decision
+2024-12-12 13:02:22,270 - INFO - Episode 1, Agent veil_of_ignorance completed decision
+2024-12-12 13:02:22,450 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:02:22,453 - INFO - Retrying request to /chat/completions in 53.190000 seconds
+2024-12-12 13:03:15,956 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:03:15,958 - INFO - Episode 1, Agent individual_allocator completed decision
+2024-12-12 13:03:16,118 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:03:16,120 - INFO - Retrying request to /chat/completions in 0.908890 seconds
+2024-12-12 13:03:17,195 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:03:17,197 - INFO - Retrying request to /chat/completions in 1.572313 seconds
+2024-12-12 13:03:18,869 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:03:18,871 - INFO - Episode 1, Agent social_allocator completed decision
+2024-12-12 13:03:18,871 - INFO - Episode 1, Agent resource_allocator completed decision
+2024-12-12 13:03:18,879 - INFO - Episode 2, Agent veil_of_ignorance completed decision
+2024-12-12 13:03:18,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:03:18,998 - INFO - Retrying request to /chat/completions in 53.460000 seconds
+2024-12-12 13:04:12,741 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:04:12,746 - INFO - Episode 2, Agent individual_allocator completed decision
+2024-12-12 13:04:12,957 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:04:12,959 - INFO - Retrying request to /chat/completions in 0.851567 seconds
+2024-12-12 13:04:13,882 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:04:13,883 - INFO - Retrying request to /chat/completions in 1.713876 seconds
+2024-12-12 13:04:15,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:04:15,665 - INFO - Episode 2, Agent social_allocator completed decision
+2024-12-12 13:04:15,666 - INFO - Episode 2, Agent resource_allocator completed decision
+2024-12-12 13:04:15,689 - INFO - Episode 3, Agent veil_of_ignorance completed decision
+2024-12-12 13:04:15,792 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:04:15,793 - INFO - Retrying request to /chat/completions in 53.502000 seconds
+2024-12-12 13:05:09,542 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:05:09,545 - INFO - Episode 3, Agent individual_allocator completed decision
+2024-12-12 13:05:09,726 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:05:09,727 - INFO - Retrying request to /chat/completions in 0.752032 seconds
+2024-12-12 13:05:10,576 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:05:10,577 - INFO - Retrying request to /chat/completions in 1.625510 seconds
+2024-12-12 13:05:12,340 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:05:12,344 - INFO - Episode 3, Agent social_allocator completed decision
+2024-12-12 13:05:12,344 - INFO - Episode 3, Agent resource_allocator completed decision
+2024-12-12 13:05:12,364 - INFO - Episode 4, Agent veil_of_ignorance completed decision
+2024-12-12 13:05:12,472 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:05:12,473 - INFO - Retrying request to /chat/completions in 53.676000 seconds
+2024-12-12 13:06:06,457 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:06:06,460 - INFO - Episode 4, Agent individual_allocator completed decision
+2024-12-12 13:06:06,694 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:06:06,696 - INFO - Retrying request to /chat/completions in 0.968819 seconds
+2024-12-12 13:06:07,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:06:07,780 - INFO - Retrying request to /chat/completions in 1.656019 seconds
+2024-12-12 13:06:09,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:06:09,556 - INFO - Episode 4, Agent social_allocator completed decision
+2024-12-12 13:06:09,556 - INFO - Episode 4, Agent resource_allocator completed decision
+2024-12-12 13:06:09,578 - INFO - Episode 5, Agent veil_of_ignorance completed decision
+2024-12-12 13:06:09,690 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:06:09,690 - INFO - Retrying request to /chat/completions in 53.304000 seconds
+2024-12-12 13:07:03,261 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:07:03,264 - INFO - Episode 5, Agent individual_allocator completed decision
+2024-12-12 13:07:03,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:07:03,485 - INFO - Retrying request to /chat/completions in 0.865604 seconds
+2024-12-12 13:07:04,426 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:07:04,427 - INFO - Retrying request to /chat/completions in 1.992237 seconds
+2024-12-12 13:07:06,491 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:07:06,495 - INFO - Episode 5, Agent social_allocator completed decision
+2024-12-12 13:07:06,496 - INFO - Episode 5, Agent resource_allocator completed decision
+2024-12-12 13:07:06,515 - INFO - Episode 6, Agent veil_of_ignorance completed decision
+2024-12-12 13:07:06,594 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:07:06,595 - INFO - Retrying request to /chat/completions in 53.250000 seconds
+2024-12-12 13:08:00,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:08:00,195 - INFO - Episode 6, Agent individual_allocator completed decision
+2024-12-12 13:08:00,405 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:08:00,406 - INFO - Retrying request to /chat/completions in 0.942940 seconds
+2024-12-12 13:08:01,466 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:08:01,468 - INFO - Retrying request to /chat/completions in 1.702283 seconds
+2024-12-12 13:08:03,264 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:08:03,266 - INFO - Episode 6, Agent social_allocator completed decision
+2024-12-12 13:08:03,267 - INFO - Episode 6, Agent resource_allocator completed decision
+2024-12-12 13:08:03,288 - INFO - Episode 7, Agent veil_of_ignorance completed decision
+2024-12-12 13:08:03,390 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:08:03,391 - INFO - Retrying request to /chat/completions in 53.310000 seconds
+2024-12-12 13:08:56,974 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:08:56,979 - INFO - Episode 7, Agent individual_allocator completed decision
+2024-12-12 13:08:57,190 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:08:57,191 - INFO - Retrying request to /chat/completions in 0.785316 seconds
+2024-12-12 13:08:58,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:08:58,141 - INFO - Retrying request to /chat/completions in 1.802298 seconds
+2024-12-12 13:09:00,008 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:09:00,009 - INFO - Episode 7, Agent social_allocator completed decision
+2024-12-12 13:09:00,009 - INFO - Episode 7, Agent resource_allocator completed decision
+2024-12-12 13:09:00,024 - INFO - Episode 8, Agent veil_of_ignorance completed decision
+2024-12-12 13:09:00,123 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:09:00,124 - INFO - Retrying request to /chat/completions in 53.442000 seconds
+2024-12-12 13:09:53,824 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:09:53,826 - INFO - Episode 8, Agent individual_allocator completed decision
+2024-12-12 13:09:54,019 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:09:54,021 - INFO - Retrying request to /chat/completions in 0.793326 seconds
+2024-12-12 13:09:54,895 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:09:54,895 - INFO - Retrying request to /chat/completions in 1.667541 seconds
+2024-12-12 13:09:56,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:09:56,665 - INFO - Episode 8, Agent social_allocator completed decision
+2024-12-12 13:09:56,665 - INFO - Episode 8, Agent resource_allocator completed decision
+2024-12-12 13:09:56,687 - INFO - Episode 9, Agent veil_of_ignorance completed decision
+2024-12-12 13:09:56,841 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:09:56,843 - INFO - Retrying request to /chat/completions in 53.604000 seconds
+2024-12-12 13:10:50,700 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-12-12 13:10:50,702 - INFO - Episode 9, Agent individual_allocator completed decision
+2024-12-12 13:10:50,873 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:10:50,876 - INFO - Retrying request to /chat/completions in 0.978098 seconds
+2024-12-12 13:10:51,958 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:10:51,960 - INFO - Retrying request to /chat/completions in 1.542467 seconds
+2024-12-12 13:10:53,625 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-12 13:10:53,633 - INFO - Episode 9, Agent social_allocator completed decision
+2024-12-12 13:10:53,633 - INFO - Episode 9, Agent resource_allocator completed decision

@@ -1,0 +1,1302 @@
+[
+  {
+    "episode": 0,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 21279.434393489955,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 1679.480159712798,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 3926.7634965696957,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 2324.1244675030653,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 19712.31465652924,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 3085.8168624647806,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 2096.2004152590807,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 19414.93631748068,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 22129.27932047847,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 4351.649910512251,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0008069625973314565,
+              "average_welfare": 0.035023536361691726,
+              "gini_coefficient": 0.454684026018628,
+              "equity_score": -9998.900000000001
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0008069625973314565,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0008069625973314565,
+              "improvement_potential": 0.0,
+              "maximin_principle_satisfied": true
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Optimal",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 1679.480159712798,
+          "average_welfare": 10000.000000000002,
+          "equity_score": 0.07589402869340645
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 1,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 1978.8581663304658,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 876.3938369613226,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 5681.694304583055,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 14145.18506083121,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 18935.41626329428,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 13072.30970087904,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 17287.73820275599,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 6877.605571022958,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 8880.117826872336,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 12264.681066469357,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0007751587246665148,
+              "average_welfare": 0.04298737386987959,
+              "gini_coefficient": 0.33397949150238126,
+              "equity_score": -9998.900000000001
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0007751587246665148,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0008072917643097561,
+              "improvement_potential": 3.2133039643241325e-05,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.000 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 876.3938369613226,
+          "average_welfare": 10000.000000000002,
+          "equity_score": 0.04628331507346828
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 2,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 17667.678359971418,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 3564.532696799846,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 2725.738635205982,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 3679.602236670808,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 18817.636810205036,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 7788.071769167881,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 5023.987485191477,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 7462.478538994726,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 26403.646187522634,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 6866.627280270186,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0007703371897512483,
+              "average_welfare": 0.038260018576494186,
+              "gini_coefficient": 0.398701381491843,
+              "equity_score": -9998.899999999998
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0007703371897512483,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0009500431831404645,
+              "improvement_potential": 0.0001797059933892162,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.000 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 2725.738635205982,
+          "average_welfare": 10000.0,
+          "equity_score": 0.10323341768206473
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 3,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 4680.91065014703,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 11117.802448973756,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 14375.251127765956,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 6467.408826137311,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 18146.311305722917,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 15154.677580183987,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 8447.620335030113,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 2894.6612874525877,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 2336.991271771735,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 16378.36516681461,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0007428551521422198,
+              "average_welfare": 0.039279007039786845,
+              "gini_coefficient": 0.31543235113010915,
+              "equity_score": -9998.9
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0007428551521422198,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0010552392100873318,
+              "improvement_potential": 0.000312384057945112,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.000 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 2336.991271771735,
+          "average_welfare": 10000.0,
+          "equity_score": 0.1287860233630348
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 4,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 11193.90923589848,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 3262.3018440975566,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 13685.853509819119,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 4378.435553321537,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 22881.09591122672,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 1585.6261036895646,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 13754.3948031212,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 21845.388481551025,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 2059.334737217508,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 5353.659820057291,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0009366829267915451,
+              "average_welfare": 0.04124593800892097,
+              "gini_coefficient": 0.4163845725586215,
+              "equity_score": -9998.9
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0009366829267915451,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0019568626411831692,
+              "improvement_potential": 0.0010201797143916242,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.001 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 1585.6261036895646,
+          "average_welfare": 10000.0,
+          "equity_score": 0.06929852092056343
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 5,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 19568.6536799554,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 0.0,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 2827.4789122566303,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 29598.498125094935,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 28072.20375248497,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 820.2319750329196,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 0.0,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 19112.933555175143,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 0.0,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 0.0,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0,
+              "average_welfare": 0.029777208290663427,
+              "gini_coefficient": 0.620081225395775,
+              "equity_score": -9998.974801732864
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0,
+              "worst_case_profile": "profile_1",
+              "maximin_score": 0.0007333255491125019,
+              "improvement_potential": 0.0007333255491125019,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.001 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 0.0,
+          "average_welfare": 10000.0,
+          "equity_score": 0.0
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 6,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 6204.187424543404,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 10236.066094641716,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 2551.2990226607494,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 5316.715545537331,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 27965.608467836682,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 13010.146173343854,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 5672.580104400991,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 1264.5447462461013,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 23949.500954643227,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 3829.3514661459462,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0011448275069861067,
+              "average_welfare": 0.03326155488926868,
+              "gini_coefficient": 0.45129061952163774,
+              "equity_score": -9998.9
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0011448275069861067,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0018129950772630167,
+              "improvement_potential": 0.00066816757027691,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.001 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 1264.5447462461013,
+          "average_welfare": 10000.000000000002,
+          "equity_score": 0.045217852052118146
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 7,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 726.7623097113137,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 16774.193860162868,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 12118.13045981254,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 7703.067513261661,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 16548.563270804378,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 4721.000364788637,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 11506.602142181498,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 12084.605866032045,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 5624.20811538924,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 12192.866097855811,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.0006774481755083501,
+              "average_welfare": 0.03606012195537287,
+              "gini_coefficient": 0.27388630677200987,
+              "equity_score": -9998.9
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.0006774481755083501,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0006774481755083501,
+              "improvement_potential": 0.0,
+              "maximin_principle_satisfied": true
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Optimal",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 726.7623097113137,
+          "average_welfare": 9999.999999999996,
+          "equity_score": 0.043326213812116876
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 8,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 25761.64578518491,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 14453.571806387583,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 2234.3400023097956,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 1078.6980096796506,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 11746.214582610448,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 2669.2484223107185,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 18739.21701968033,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 15881.65064581803,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 849.6490420146429,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 6585.764684003899,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.00048085453147209893,
+              "average_welfare": 0.06287233241859433,
+              "gini_coefficient": 0.45658157702691526,
+              "equity_score": -9998.9
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.00048085453147209893,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0009507329803015432,
+              "improvement_potential": 0.0004698784488294443,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.000 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 849.6490420146429,
+          "average_welfare": 10000.0,
+          "equity_score": 0.032981163125193724
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  },
+  {
+    "episode": 9,
+    "scenario_data": {
+      "available_resources": 100000,
+      "total_funds": 100000,
+      "constraints": {
+        "minimum_allocation": 1000,
+        "maximum_allocation": 30000
+      }
+    },
+    "agent_decisions": [
+      {
+        "agent_name": "veil_of_ignorance",
+        "decision": {
+          "status": "success",
+          "allocation_decision": {
+            "allocations": [
+              {
+                "profile_id": "profile_0",
+                "amount": 17802.512864300068,
+                "need_level": 0.626246764913553,
+                "vulnerability_index": 0.7583203136795259
+              },
+              {
+                "profile_id": "profile_1",
+                "amount": 4568.633423949661,
+                "need_level": 0.647956669392908,
+                "vulnerability_index": 0.28824247183958096
+              },
+              {
+                "profile_id": "profile_2",
+                "amount": 9200.966618375245,
+                "need_level": 0.6136131614885988,
+                "vulnerability_index": 0.8339633350899468
+              },
+              {
+                "profile_id": "profile_3",
+                "amount": 2720.4353222347922,
+                "need_level": 0.1915114101911558,
+                "vulnerability_index": 0.4113142004442003
+              },
+              {
+                "profile_id": "profile_4",
+                "amount": 4717.967700510139,
+                "need_level": 0.010384630350636193,
+                "vulnerability_index": 0.058729192281053
+              },
+              {
+                "profile_id": "profile_5",
+                "amount": 27711.71273578849,
+                "need_level": 0.8724294143489961,
+                "vulnerability_index": 0.9529923626686814
+              },
+              {
+                "profile_id": "profile_6",
+                "amount": 4446.583233535141,
+                "need_level": 0.9059444672000376,
+                "vulnerability_index": 0.12425559459015434
+              },
+              {
+                "profile_id": "profile_7",
+                "amount": 3581.977067667818,
+                "need_level": 0.8244989509442643,
+                "vulnerability_index": 0.7757545306405258
+              },
+              {
+                "profile_id": "profile_8",
+                "amount": 18661.176711112083,
+                "need_level": 0.120160958813191,
+                "vulnerability_index": 0.05277392103190548
+              },
+              {
+                "profile_id": "profile_9",
+                "amount": 6588.034322526542,
+                "need_level": 0.20119570438394885,
+                "vulnerability_index": 0.8865317874092467
+              }
+            ],
+            "standard_metrics": {
+              "minimum_welfare": 0.00019313934137453148,
+              "average_welfare": 0.05178832857537188,
+              "gini_coefficient": 0.4130226085852109,
+              "equity_score": -9998.899999999996
+            },
+            "maximin_analysis": {
+              "worst_case_outcome": 0.00019313934137453148,
+              "worst_case_profile": "profile_4",
+              "maximin_score": 0.0005369058572274458,
+              "improvement_potential": 0.00034376651585291433,
+              "maximin_principle_satisfied": false
+            },
+            "fairness_analysis": {
+              "maximin_satisfaction": "Suboptimal with 0.000 improvement potential",
+              "equity_principle": "Resources distributed based on anonymous needs",
+              "consensus_level": "Achieved through collective optimization"
+            }
+          }
+        },
+        "metrics": {
+          "minimum_welfare": 2720.4353222347922,
+          "average_welfare": 9999.999999999998,
+          "equity_score": 0.09816915136831172
+        }
+      },
+      {
+        "agent_name": "individual_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 8192 tokens. However, your messages resulted in 8207 tokens. Please reduce the length of the messages.\", 'type': 'invalid_request_error', 'param': 'messages', 'code': 'context_length_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "social_allocator",
+        "decision": {
+          "status": "error",
+          "error": "Error code: 429 - {'error': {'message': 'Request too large for gpt-4 in organization org-2h71guSrdM1tA4N7S58ZJVqg on tokens per min (TPM): Limit 10000, Requested 10347. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+        },
+        "metrics": {}
+      },
+      {
+        "agent_name": "resource_allocator",
+        "decision": {
+          "status": "error",
+          "error": "'requests'"
+        },
+        "metrics": {}
+      }
+    ]
+  }
+]
